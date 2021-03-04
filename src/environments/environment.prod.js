@@ -1,0 +1,3 @@
+const FIREBASE_DB = `[FIREBASE DB GOES HERE]`;
+
+export { FIREBASE_DB };

@@ -5,7 +5,7 @@ import IngredientList from "./IngredientList";
 import ErrorModal from "../UI/ErrorModal";
 import Search from "./Search";
 import useHttp from "../../hooks/http";
-import { FIREBASE_DB } from "../../environment/environment";
+import { FIREBASE_DB } from "../../environments/environment";
 
 const ingredientReducer = (currentIngredients, action) => {
   switch (action.type) {

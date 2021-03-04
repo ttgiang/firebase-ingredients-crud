@@ -4,7 +4,7 @@ import Card from "../UI/Card";
 import ErrorModal from "../UI/ErrorModal";
 import useHttp from "../../hooks/http";
 import "./Search.css";
-import { FIREBASE_DB } from "../../environment/environment";
+import { FIREBASE_DB } from "../../environments/environment";
 
 const Search = React.memo((props) => {
   const { onLoadIngredients } = props;

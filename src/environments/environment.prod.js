@@ -1,3 +1,3 @@
-const FIREBASE_DB = `https://react-burger-bulider-ac0d1-default-rtdb.firebaseio.com/`;
+const FIREBASE_DB = `[FIREBASE DB LINK GOES HERE]`;
 
 export { FIREBASE_DB };
